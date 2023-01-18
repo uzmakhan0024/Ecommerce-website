@@ -1,0 +1,39 @@
+@media screen and (max-width:1000px){
+  
+   header{
+    height:20.2vh;
+   }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0px;
+      
+    }
+    nav ul{
+        justify-content: center;
+        height: 22px;
+     
+    }
+    .search{
+        justify-content: center;
+        height: 9vh;
+    
+    }
+    .search input{
+margin: 12px 16px;
+    }
+    .slider{
+        height: 43vh;
+    }
+  
+   .card-item{
+     width: 21vw;
+   
+}}
+@media screen and (max-width:650px){
+    .ori{
+        flex-direction: column;
+    }
+}
